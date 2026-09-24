@@ -1,6 +1,6 @@
 # Tesla Dashboard
 
-A small web arcade for browsing and playing independent mini-games. The landing page currently features **Match 3**, with room to add more games as they are created.
+A small web arcade for browsing and playing independent mini-games. Published with GitHub Pages: https://lcorreia007.github.io/tesla-dashboard/ The landing page currently features **Match 3**, with room to add more games as they are created.
 
 ## Run locally
 
