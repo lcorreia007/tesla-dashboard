@@ -17,7 +17,7 @@ function App() {
     <aside className="sidebar">
       <a className="wordmark" href="#top" aria-label="Tesla Dashboard home"><span className="mark">T</span><span>TESLA<span className="wordmark-light"> / ARCADE</span></span></a>
       <div className="side-label">WORKSPACE</div>
-      <nav><a className="nav-item active" href="#games"><span>▤</span> Game library <b>03</b></a><a className="nav-item" href="#about"><span>⌘</span> About this space</a></nav>
+      <nav><a className="nav-item active" href="#games"><span>▤</span> Game library <b>{String(games.length).padStart(2, '0')}</b></a><a className="nav-item" href="#about"><span>⌘</span> About this space</a></nav>
       <div className="sidebar-bottom"><span className="live-dot"/> BUILDING IN PUBLIC <small>v0.1.0 · 2026</small></div>
     </aside>
 
