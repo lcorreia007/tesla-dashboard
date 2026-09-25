@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import './App.css'
 
 const games = [
-  { title: 'Match 3', genre: 'PUZZLE · MATCH-3', description: 'Swap colorful tiles, make matches, and chase a bigger score.', color: 'violet', icon: '✳', status: 'PLAY NOW', players: '01', href: '/games/match3.html' },
+  { title: 'Match 3', genre: 'PUZZLE · MATCH-3', description: 'Swap colorful tiles, make matches, and chase a bigger score.', color: 'violet', icon: '✳', status: 'PLAY NOW', players: '01', href: `${import.meta.env.BASE_URL}games/match3.html` },
 ]
 
 function App() {
